@@ -1,0 +1,38 @@
+
+
+.valores{
+
+
+  ion-chip{
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    font-family: ARIAL;
+    font-weight: bold
+  }
+
+  ion-col{
+    text-align: center;
+  };
+
+  ion-button{
+    color: black;
+  }
+
+};
+
+.contar{
+
+font-family: Serif;
+font-size: 150%;
+
+  ion-col{
+    text-align: center;
+  };
+
+  ion-button{
+    color: black;
+    font-style: italic;
+  }
+
+}
