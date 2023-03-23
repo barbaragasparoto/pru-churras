@@ -39,15 +39,36 @@ font-size: 150%;
 
 .partida{
 
+ion-item{
+  margin-right: 19px;
+}
+
 p{
   font-size: 150%;
   font-weight: bold;
   font-style: italic;
-  margin-left: 4%
+  margin-left: 4%;
+  margin-bottom: -5px;
 };
+
+h2{
+  font-family: Serif;
+  font-size: 23px;
+}
 
 h3{
   font-family: Serif;
+  text-align: end;
+  font-size: 23px;
+
+}
+
+ion-button{
+  margin-top: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+
 }
 
 };
+

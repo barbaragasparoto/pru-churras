@@ -45,19 +45,29 @@
 <P>PARTIDAS</P>
 
 <ion-item>
-  <h3>Time 1 {{vitoriaA}}</h3>
+  <ion-grid>
+    <ion-row>
+      <ion-col> <h2>Time 1 </h2></ion-col>
+      <ion-col> <h3>{{vitoriaA}} </h3></ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-item>
 
 <ion-item>
-  <h3>Time 2 {{vitoriaB}}</h3>
+  <ion-grid>
+    <ion-row>
+      <ion-col> <h2>Time 2 </h2></ion-col>
+      <ion-col> <h3>{{vitoriaB}} </h3></ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-item>
 
 <ion-button color="dark"  expand="block" (click)="limpar()">LIMPAR</ion-button>
-
-
   </div>
 
 
 
 
 </ion-content>
+
+
